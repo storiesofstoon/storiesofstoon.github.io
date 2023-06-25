@@ -73,6 +73,7 @@ p {
 #home {
   position: relative;
 }
+
 .banner {
   background-size: cover;
   height: 100vh;
@@ -114,6 +115,13 @@ p {
 }
 
 .soon{
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   color: #6d0303;
   padding: auto;
   text-align: center;
