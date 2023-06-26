@@ -136,6 +136,7 @@ p {
 }
 
 .copyright {
+  background-size: cover;
   padding: 20px 0;
   color: #fff;
   text-align: center;
