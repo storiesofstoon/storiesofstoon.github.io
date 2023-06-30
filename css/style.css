@@ -136,9 +136,8 @@ p {
 }
 
 .street {
-  max-width: 100%;
+  max-width: auto;
   max-height: 100%;
-  display: block;
 }
 
 .copyright {
