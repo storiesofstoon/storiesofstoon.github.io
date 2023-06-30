@@ -135,6 +135,12 @@ p {
   z-index: -1;
 }
 
+.street {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
 .copyright {
   background-size: cover;
   padding: 20px 0;
