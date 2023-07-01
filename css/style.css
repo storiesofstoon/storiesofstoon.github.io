@@ -2,7 +2,7 @@
 
 html {
   background-color: #353b43;
-  color: #721414;
+  color: #14722f;
 }
 
 body {
@@ -119,8 +119,7 @@ p {
   z-index: 1;
   left: 0;
 }
-
-.soon{
+.blank {
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -128,11 +127,8 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  color: #6d0303;
-  padding: auto;
-  text-align: center;
-
 }
+
 .dark-bg {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
@@ -146,13 +142,37 @@ p {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: auto;
 }
 
 .street .block {
   text-align: center;
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #474646;
 
 }
+.soon{
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #6d0303;
+  padding: auto;
+  text-align: center;
 
+}
 .copyright {
   background-size: cover;
   padding: 20px 0;
@@ -162,10 +182,7 @@ p {
   margin-right: auto;
 }
 .copyright img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+ background-size: cover;
 }
 .copyright p {
   margin-top: 10px;
