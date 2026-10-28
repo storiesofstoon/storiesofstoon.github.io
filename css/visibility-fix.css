@@ -1,0 +1,15 @@
+/* FINAL OVERRIDES: full-width title and genuinely visible fixed cityscape */
+html, body { margin:0 !important; min-height:100% !important; background:transparent !important; }
+html { background-color:#080711 !important; }
+body::before,body::after { content:none !important; display:none !important; }
+#stoon-fixed-city { position:fixed !important; inset:0 !important; width:100vw !important; height:100dvh !important; object-fit:cover !important; object-position:center center !important; z-index:0 !important; opacity:1 !important; pointer-events:none !important; }
+body > header,body > main,body > footer { position:relative !important; z-index:1 !important; }
+body,main,main > section,section,.hero,.dark,#episodes,#reader,#characters,#about,#updates,#email-list { background:transparent !important; background-image:none !important; }
+.hero,.hero-inner,.wrap { overflow:visible !important; }
+.hero::before,.hero::after { content:none !important; display:none !important; }
+.hero-inner { width:100% !important; max-width:1200px !important; padding:24px 12px 40px !important; margin:0 auto !important; box-sizing:border-box !important; }
+.hero-logo { display:block !important; width:100% !important; max-width:min(1100px,calc(100vw - 32px)) !important; height:auto !important; max-height:none !important; object-fit:contain !important; margin:0 auto 20px !important; }
+header { background:rgba(7,5,18,.65) !important; }
+footer { background:rgba(7,5,18,.45) !important; }
+.episode,.bio-card,.mail-panel,.reader-panel,.art,.card,.episode-content { background-color:rgba(12,9,23,.70) !important; }
+@media(max-width:700px) { #stoon-fixed-city { object-position:38% center !important; } .hero-inner { padding:18px 8px 28px !important; } .hero-logo { max-width:calc(100vw - 16px) !important; } }

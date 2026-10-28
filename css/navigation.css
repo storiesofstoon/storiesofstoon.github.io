@@ -1,0 +1,46 @@
+/* Shared header — match the About page on all four pages. */
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1150px;
+  margin-inline: auto;
+  padding: 12px 24px;
+}
+header .brand {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  align-items: center;
+  justify-content: center;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  max-width: 36px !important;
+  padding: 0 !important;
+}
+header .brand img {
+  display: block !important;
+  width: 36px !important;
+  max-width: 36px !important;
+  height: 36px !important;
+  max-height: 36px !important;
+  object-fit: contain;
+}
+header .nav nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: clamp(12px, 2.6vw, 25px);
+}
+header .nav nav a {
+  white-space: nowrap;
+}
+header .nav nav a[aria-current="page"] {
+  color: var(--orange, #ff7438);
+}
+@media (max-width: 520px) {
+  header .nav { padding: 12px 14px; gap: 10px; }
+  header .nav nav { gap: 10px; font-size: 11px; }
+}

@@ -1,0 +1,5 @@
+/* Compact S.O.S. logo button — same proportions, smaller footprint. */
+header .nav { padding-top: 5px !important; padding-bottom: 5px !important; }
+header .brand { display: inline-flex !important; align-items: center !important; padding: 0 !important; margin: 0 !important; line-height: 1 !important; flex-shrink: 0; }
+header .brand img { display: block !important; width: 48px !important; height: 30px !important; max-width: 48px !important; max-height: 30px !important; object-fit: contain !important; }
+@media(max-width:700px) { header .nav { padding-top: 4px !important; padding-bottom: 4px !important; } header .brand img { width: 40px !important; height: 26px !important; max-width: 40px !important; max-height: 26px !important; } }

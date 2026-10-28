@@ -1,0 +1,15 @@
+/* Index page: use the same sharp, fixed background as the other site pages.
+   Hide the legacy low-res backdrop to prevent double rendering. */
+body.stoon-index-page::before { content: none !important; display: none !important; }
+body.stoon-index-page #stoon-fixed-city {
+  display: block !important; position: fixed !important; inset: 0 !important;
+  width: 100vw !important; height: 100vh !important; object-fit: cover !important;
+  object-position: center center !important; filter: none !important; opacity: 1 !important;
+  transform: none !important; z-index: 0 !important; pointer-events: none !important;
+}
+body.stoon-index-page > header, body.stoon-index-page > main, body.stoon-index-page > footer {
+  position: relative !important; z-index: 1 !important;
+}
+@media (max-width: 700px) {
+  body.stoon-index-page #stoon-fixed-city { object-position: 37% center !important; }
+}
