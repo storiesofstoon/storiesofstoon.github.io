@@ -1,0 +1,7 @@
+/* Shared branding: all pages use the supplied night-city image. */
+html, body { background-color:#080711 !important; }
+body::before,body::after { background-image:none !important; content:none !important; }
+#stoon-fixed-city { display:block !important; position:fixed !important; inset:0 !important; width:100vw !important; height:100vh !important; object-fit:cover !important; object-position:center center !important; opacity:1 !important; filter:none !important; z-index:0 !important; pointer-events:none !important; }
+body > header, body > main, body > footer { position:relative !important; z-index:1 !important; }
+header .brand img { width:96px !important; height:64px !important; max-width:96px !important; max-height:64px !important; object-fit:contain !important; }
+@media(max-width:700px){ header .brand img {width:70px !important;height:48px !important;max-width:70px !important;max-height:48px !important;} }

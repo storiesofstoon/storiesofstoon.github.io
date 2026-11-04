@@ -1,0 +1,16 @@
+/* Character bios: accessible expandable cards; site-wide CSS stays separate. */
+.character-section {padding:64px 0 90px; position:relative; z-index:1}
+.character-section .section-head {margin-bottom:30px}
+.character-section h2 {max-width:850px}
+.character-section .bio-card {border-radius:5px; overflow:hidden}
+.character-section .bio-card summary {min-height:200px}
+.character-section .bio-card summary strong {display:block}
+.character-section .bio-role {font-size:11px;font-weight:900;letter-spacing:1.3px;color:#baff86;text-transform:uppercase}
+.character-section .bio-teaser {font-size:14px;color:#ded4e6;line-height:1.5}
+.character-section .bio-read-more {margin-top:auto;color:#baff86;font-weight:850;font-size:12px;letter-spacing:1px}
+.character-section .bio-detail {padding:0 20px 20px; border-top:1px solid #653486}
+.character-section .bio-detail p {color:#e8e0ea;margin:14px 0;line-height:1.65}
+.character-section .bio-detail b {color:#baff86}
+.character-section .bio-card[open] {border-color:#baff86}
+.character-section .bio-card summary:focus-visible {outline:3px solid #baff86;outline-offset:-3px}
+@media(max-width:600px){.character-section{padding:42px 0 65px}}

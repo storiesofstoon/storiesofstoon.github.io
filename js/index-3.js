@@ -1,0 +1,2 @@
+// Stories of Stoon — index page script
+document.addEventListener('error',function(e){if(e.target.tagName==='IMG' && /comic-|thumb-/.test(e.target.src)){e.target.style.display='none';if(e.target.parentElement&&!e.target.parentElement.querySelector('.missing-art')){let p=document.createElement('p');p.className='missing-art';p.textContent='Comic artwork file not included yet — see README.txt';e.target.parentElement.append(p)}}},true);

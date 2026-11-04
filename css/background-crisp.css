@@ -1,0 +1,14 @@
+
+/* Shared fixed city background: sharper image, no CSS blur or dark overlay. */
+html { background: #080711 !important; }
+body { background: transparent !important; }
+#stoon-fixed-city {
+ position: fixed !important; inset: 0 !important; width: 100vw !important; height: 100vh !important;
+ object-fit: cover !important; object-position: center center !important;
+ opacity: 1 !important; filter: none !important; transform: translateZ(0);
+ z-index: 0 !important; pointer-events: none !important;
+}
+body > header,body > main,body > footer { position: relative !important; z-index: 1 !important; }
+main,main > section,.hero,.dark { background: transparent !important; background-image: none !important; }
+.hero-logo { max-width: min(1100px, calc(100vw - 36px)) !important; width: 100% !important; height: auto !important; object-fit: contain !important; }
+@media (max-width: 700px) { #stoon-fixed-city { object-position: 37% center !important; } }
