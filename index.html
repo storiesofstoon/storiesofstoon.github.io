@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101015">
+  <meta name="description" content="Stories of Stoon is an original graphic novel set in a city where the dead don't stay dead. Coming soon from Institute of Uncertainty Press.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stories of Stoon | Coming Soon">
+  <meta property="og:description" content="The dead don't stay dead. Enter the world of Stoon.">
+  <meta property="og:image" content="https://storiesofstoon.github.io/assets/social-preview.svg">
+  <meta property="og:url" content="https://storiesofstoon.github.io/">
+  <title>Stories of Stoon | Coming Soon</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="site">
+    <header class="header">
+      <a class="brand" href="./" aria-label="Stories of Stoon home">
+        <img src="assets/logo.svg" alt="Stories of Stoon" width="250" height="82">
+      </a>
+      <span class="header-tag">AN ORIGINAL GRAPHIC NOVEL</span>
+    </header>
+
+    <main id="main" class="hero">
+      <div class="skyline" aria-hidden="true"></div>
+      <div class="atmosphere" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="signal"></span> INCOMING TRANSMISSION <span class="code">// STOON</span></p>
+        <h1>THE DEAD<br><em>DON'T STAY</em><br>DEAD.</h1>
+        <p class="intro">A city coming apart. A secret buried beneath its streets. And a few survivors who refuse to disappear.</p>
+        <p class="launch">STORIES OF STOON <span class="slash">/</span> VOLUME ONE</p>
+        <div class="countdown" id="countdown" hidden aria-label="Countdown to launch">
+          <p class="countdown-label">THE OUTBREAK BEGINS IN</p>
+          <div class="clock" aria-live="off">
+            <div><b id="days">00</b><small>DAYS</small></div>
+            <div><b id="hours">00</b><small>HOURS</small></div>
+            <div><b id="minutes">00</b><small>MINUTES</small></div>
+            <div><b id="seconds">00</b><small>SECONDS</small></div>
+          </div>
+        </div>
+        <section class="signup" aria-labelledby="signup-heading">
+          <h2 id="signup-heading">BE THERE WHEN IT BEGINS.</h2>
+          <p>Get a message when the graphic novel is released. No spam, no false alarms.</p>
+          <form id="signup-form" class="signup-form" novalidate>
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="YOUR EMAIL ADDRESS" autocomplete="email" required>
+            <button type="submit">NOTIFY ME <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="fineprint">Only release updates. Unsubscribe through the email provider at any time.</p>
+        </section>
+        <div class="purchase" id="purchase" hidden aria-label="Purchase links">
+          <a id="amazon-link" class="purchase-link" rel="noopener noreferrer" target="_blank" hidden>BUY ON AMAZON ↗</a>
+          <a id="direct-link" class="purchase-link secondary" rel="noopener noreferrer" target="_blank" hidden>BUY DIRECT ↗</a>
+        </div>
+      </div>
+      <p class="side-label" aria-hidden="true">STOON / INCIDENT REPORT 001</p>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> STORIES OF STOON</span>
+      <span>AN INSTITUTE OF UNCERTAINTY PRESS PUBLICATION</span>
+      <span class="footer-status"><i></i> TRANSMISSION ACTIVE</span>
+    </footer>
+  </div>
+</body>
+</html>
